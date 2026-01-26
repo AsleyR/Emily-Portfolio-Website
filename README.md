@@ -1,4 +1,9 @@
-<h1>Emily Lim</h1>
+<div align="center">
+    <h1>Emily Lim</h1>
+    <p>Bcom Student at McGill University.</p>
+</div>
+
+<hr>
 
 <h2>Table of Contents</h2>
 
