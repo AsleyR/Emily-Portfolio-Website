@@ -6,7 +6,7 @@ interface ILinkDict {
 
 const NavbarLinks = () => {
     const linkDict: ILinkDict = {
-        "Portfolio": "/#portfolio",
+        "Portfolio": "#portfolio",
         "About": "#about-me",
         "Contact": "#contact-me"
     }

@@ -4,15 +4,15 @@ const ContactMe = () => {
     const contactMeIcons: ButtonProps[] = [
         {
             icon_url: "/media/icons/email.svg",
-            link: "/"
+            link: "mailto:lim.emily567@gmail.com"
         },
         {
             icon_url: "/media/icons/linkedin.svg",
-            link: "/"
+            link: "https://www.linkedin.com/in/emily-y-lim/"
         },
         {
             icon_url: "/media/icons/youtube.svg",
-            link: "/"
+            link: "https://www.youtube.com/@ChicPandaInteriors"
         },
     ]
 

@@ -17,7 +17,7 @@ const Hero = () => {
                 </p>
                 </div>
                 <ButtonLink button={{
-                    "link": "/#sofa-bed-store",
+                    "link": "/#portfolio",
                     "text": "See my Projects"
                     }}/>
             </div>

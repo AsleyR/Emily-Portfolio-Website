@@ -37,7 +37,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${robotoSans.variable} ${robotoMono.variable} antialiased`}
+        className={`${robotoSans.variable} ${robotoMono.variable} antialiased 
+        scroll-smooth transition-all`}
       >
         <Navbar />
         {children}
