@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Roboto, Roboto_Mono } from "next/font/google";
+import { Montserrat, Playfair } from "next/font/google";
 import Navbar from "./(components)/navbar/Navbar";
 import "./globals.css";
 import Footer from "./(components)/footer/Footer";
+import { NavbarMenuProvider } from "./(context)/NavbarMenuContext";
+import MobileNavbarLinks from "./(components)/navbar/mobile-navbar/MobileNavbarLinks";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -14,19 +16,19 @@ import Footer from "./(components)/footer/Footer";
 //   subsets: ["latin"],
 // });
 
-const robotoSans = Roboto({
-  variable: "--font-roboto-sans",
+const montserrat = Montserrat({
+  variable: "--font-montserrat-sans",
   subsets: ["latin"],
 })
 
-const robotoMono = Roboto_Mono({
-  variable: "--font-roboto-mono",
+const playfair = Playfair({
+  variable: "--font-playfair-serif",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
   title: "Emily Lim",
-  description: "Emily Lim's Personal Portfolio Website",
+  description: "Emily Lim's Personal Portfolio Website"
 };
 
 export default function RootLayout({
@@ -37,10 +39,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${robotoSans.variable} ${robotoMono.variable} antialiased 
-        scroll-smooth transition-all`}
+        className={`${montserrat.variable} ${playfair.variable} antialiased 
+        scroll-smooth transition-all relative font-sans text-main`}
       >
-        <Navbar />
+        <NavbarMenuProvider>
+          <Navbar />
+          <MobileNavbarLinks />
+        </NavbarMenuProvider>
         {children}
         <Footer />
       </body>
