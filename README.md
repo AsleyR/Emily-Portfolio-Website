@@ -20,7 +20,7 @@
 Personal portfolio website made using TypeScript, Next.js, and TailwindCSS.
 
 ## Hosting
-This project is hosted on [Vercel](https://vercel.com/), you can access it by at: [https://emily-portfolio-website.vercel.app/](https://emily-portfolio-website.vercel.app/).
+This project is hosted on [Vercel](https://vercel.com/), you can access it by at: [https://emilylim.vercel.app/](https://emilylim.vercel.app/).
 
 ## License
 This project make use of the GNU General Public License v3.0. To learn more about this license, click [here](LICENSE.md).
