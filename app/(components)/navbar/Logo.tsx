@@ -6,15 +6,17 @@ import Link from "next/link";
 import { useContext } from "react";
 
 const Logo = () => {
-    const { toggleMenu } = useContext(NavbarMenuContext)
+    const { isMenuOpen, toggleMenu } = useContext(NavbarMenuContext)
 
     const changeMenuState = () => {
-        toggleMenu()
+        if (isMenuOpen === true) {
+            toggleMenu()
+        }
     }
     
     return (
         <div className="flex">
-            <Link href={'/'} className="" onClick={toggleMenu}>
+            <Link href={'/'} className="" onClick={changeMenuState}>
                 {/* <h1 className="font-black font-sans text-3xl hover:underline underline-offset-2">Emily Lim</h1> */}
                 <Image 
                 className="w-40 h-full"
