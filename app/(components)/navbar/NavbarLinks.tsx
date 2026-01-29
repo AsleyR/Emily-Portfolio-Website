@@ -12,10 +12,11 @@ const NavbarLinks = () => {
     }
 
     return ( 
-        <ul className="flex space-x-18 place-content-end align-center text-center items-center">
+        <ul className="hidden sm:flex space-x-18 place-content-end align-center text-center items-center">
             {
                 Object.entries(linkDict).map(([key, value]) => (
-                    <Link key={key + linkDict[key]} href={linkDict[key]} className="hover:text-[#545454] duration-100">
+                    <Link key={key + linkDict[key]} href={linkDict[key]} 
+                    className="hover:text-main-2 duration-0">
                         <li className="tracking-widest">{key}</li>
                     </Link>
                 ))
