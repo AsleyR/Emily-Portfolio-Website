@@ -10,7 +10,8 @@ export interface CardProps {
 const Card = ({ img, title, text, alt }: CardProps) => {
     return (
         <div className="grid grid-rows-auto bg-gray-100 rounded-3xl
-        drop-shadow-2xl hover:scale-102 duration-250 cursor-pointer w-[20rem] h-[22rem] justify-center-safe">
+        drop-shadow-2xl hover:scale-102 duration-250 cursor-pointer 
+        w-full max-w-120 h-75 justify-center-safe">
             <div className="relative overflow-hidden">
                 <div className="absolute bg-black/20 h-full w-full z-0 rounded-t-xl"></div>
                 <Image
@@ -21,9 +22,9 @@ const Card = ({ img, title, text, alt }: CardProps) => {
                 height={300}
                 />
             </div>
-            <div className="row-span-1 flex flex-col space-y-2 p-5 h-50 overflow-hidden">
+            <div className="flex flex-col space-y-2 p-5 h-[10rem] overflow-hidden">
                 <h3 className="font-bold text-2xl">{title}</h3>
-                <p className="text-lg truncate h-full">{text}</p>
+                <p className="text-lg h-full">{text}</p>
             </div>
         </div>
     );
