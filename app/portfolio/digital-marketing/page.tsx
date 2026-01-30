@@ -7,7 +7,7 @@ const PortfolioPage = () => {
     return (
         <section className="grid grid-cols-auto
         transition-all">
-            <div className="bg-[#d4e4ff] px-5 md:px-20 pt-10 pb-20 space-y-10">
+            <div className="bg-[#d4e4ff] px-5 md:px-20 pt-10 pb-50 space-y-10">
                 <SectionTitle title="Digital Marketing"/>
                 <div id="" 
                 className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center bg-white rounded-xl">
@@ -29,14 +29,14 @@ const PortfolioPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-[#d4e4ff] h-[15rem] -mt-20">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#14213D" fillOpacity="1" d="M0,224L120,202.7C240,181,480,139,720,144C960,149,1200,203,1320,229.3L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+            <div className="-mt-40">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FCA311" fillOpacity="1" d="M0,128L120,133.3C240,139,480,149,720,133.3C960,117,1200,75,1320,53.3L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
             </div>
-            <div className="-mt-50">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FCA311" fillOpacity="1" d="M0,224L120,202.7C240,181,480,139,720,144C960,149,1200,203,1320,229.3L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+            <div className="-mt-75 ">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#007ea7" fillOpacity="1" d="M0,192L120,202.7C240,213,480,235,720,213.3C960,192,1200,128,1320,96L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
             </div>
-            <div className="h-[5rem] -mt-60">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#007ea7" fillOpacity="1" d="M0,224L120,202.7C240,181,480,139,720,144C960,149,1200,203,1320,229.3L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+            <div className="-m-100">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#007ea7" fillOpacity="1" d="M0,192L120,202.7C240,213,480,235,720,213.3C960,192,1200,128,1320,96L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
             </div>
             <div className="bg-[#007ea7] px-5 md:px-20 pb-40 space-y-10">
                 <div className="text-center grid place-content-center gap-2 text-white">
@@ -51,13 +51,14 @@ const PortfolioPage = () => {
                     <p className="text-xl text-center">
                         Used AI tools and digital art software to create 34+ interior design mockups for marketing materials and the website gallery; collaborated with professional graphic designers on social media posts and seasonal promotions.
                     </p>
-                    <div className="overflow-hidden bg-black/70 rounded-2xl">
+                    {/* MUST FIX THE DAMN CAROUSEL */}
+                    <div className="overflow-hidden bg-black/70 rounded-2xl w-[60rem]">
                         <SofaCarousel />
                     </div>
                 </div>
             </div>
-            <div className="-mt-45">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#14213D" fillOpacity="1" d="M0,96L120,106.7C240,117,480,139,720,144C960,149,1200,139,1320,133.3L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+            <div className="-mt-37">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#14213D" fillOpacity="1" d="M0,64L120,90.7C240,117,480,171,720,165.3C960,160,1200,96,1320,64L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
             </div>
             <div className="-mt-55">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fillOpacity="1" d="M0,96L120,106.7C240,117,480,139,720,144C960,149,1200,139,1320,133.3L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
