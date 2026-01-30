@@ -3,11 +3,11 @@ import SofaCarousel from "./SofaCarousel";
 
 const DigitalMarketing = () => {
     return (
-        <section className="grid grid-cols-auto space-y-10 mx-30 py-10 mt-[-50]">
-            <h2 className="font-bold text-4xl">Sofa Bed Store</h2>
+        <section className="grid grid-cols-auto space-y-10">
             <div id="sofa-bed-store" 
-            className="grid grid-cols-2 space-x-10 items-center">
-                <div className="space-y-2">
+            className="grid grid-cols-2 gap-5 items-center">
+                <div className="space-y-5">
+                    <h2 className="font-bold text-4xl">SofaBedStore.com</h2>
                     <p className="text-2xl font-medium">Curated digital images of the company's products which were used in its marketing materials and webstore.</p>
                 </div>
                 <div className="">
