@@ -1,30 +1,10 @@
 "use client"
 
 import "react-image-gallery/styles/css/image-gallery.css";
+import sofaFile from "./sofa-files.json"
 import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 
-const sofaImages: ReactImageGalleryItem[] = [
-    {
-        original: "/media/sofas/sofa-2.png",
-        thumbnail: "/media/sofas/sofa-2.png",
-        thumbnailClass: "w-full h-full object-fill"
-    },
-    {
-        original: "/media/sofas/sofa-3.png",
-        thumbnail: "/media/sofas/sofa-3.png",
-        thumbnailClass: "w-full h-full object-cover"
-    },
-    {
-        original: "/media/sofas/sofa-4.png",
-        thumbnail: "/media/sofas/sofa-4.png",
-        thumbnailClass: "w-full h-full object-cover"
-    },
-    {
-        original: "/media/sofas/sofa-5.png",
-        thumbnail: "/media/sofas/sofa-5.png",
-        thumbnailClass: "w-full h-full object-cover"
-    }
-]
+const sofaImages: ReactImageGalleryItem[] = sofaFile
 
 const SofaCarousel = () => {
     return (
@@ -36,8 +16,9 @@ const SofaCarousel = () => {
         infinite={true}
         autoPlay={true}
         showBullets={true}
-        slideDuration={2000}
-        additionalClass="px-[5rem] h-[38rem]"
+        slideDuration={1500}
+        swipingTransitionDuration={100}
+        additionalClass="px-[5rem] w-full h-[38rem] object-cover"
         />
     );
 }
