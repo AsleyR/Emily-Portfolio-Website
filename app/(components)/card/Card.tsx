@@ -1,15 +1,18 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export interface CardProps {
     img: string;
     title: string;
     text: string;
     alt: string;
+    link: string;
 }
 
-const Card = ({ img, title, text, alt }: CardProps) => {
+const Card = ({ img, title, text, alt, link }: CardProps) => {
     return (
-        <div className="grid grid-rows-auto bg-gray-100 rounded-3xl
+        <Link href={link}
+        className="grid grid-rows-auto bg-gray-100 rounded-3xl
         drop-shadow-2xl hover:scale-102 duration-250 cursor-pointer 
         w-full max-w-120 h-75 justify-center-safe">
             <div className="relative overflow-hidden">
@@ -26,7 +29,7 @@ const Card = ({ img, title, text, alt }: CardProps) => {
                 <h3 className="font-bold text-2xl">{title}</h3>
                 <p className="text-lg h-full">{text}</p>
             </div>
-        </div>
+        </Link>
     );
 }
  

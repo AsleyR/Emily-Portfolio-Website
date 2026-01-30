@@ -42,7 +42,7 @@ const MobileNavbarLinks = () => {
 
     const linkDict: ILinkDict = {
         "Portfolio": {
-            link: "#portfolio",
+            link: "/portfolio/",
             text: "PORTFOLIO"
         },
         "About": {

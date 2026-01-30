@@ -6,31 +6,36 @@ const Portfolio = () => {
             img: "/media/sofas/sofa-1.png",
             title: "Digital Marketing",
             text: "Graphic Design, SEO Research and Implementation",
-            alt: "Digital Marketing"
+            alt: "Digital Marketing",
+            link: "/portfolio/digital-marketing/"
         },
         {
             img: "/media/blog-writing/blog-writing-thumbnail.png",
             title: "Blog Writing",
             text: "How to Guides, Interior Concept Ideas and Copywriting",
-            alt: "Blog Writing"
+            alt: "Blog Writing",
+            link: "/portfolio/blog-writing"
         },
         {
             img: "/media/video-production/video-production-thumbnail.png",
             title: "Video Production",
             text: "Filmmaking, Video Editing, and Promotion",
-            alt: "Video Production"
+            alt: "Video Production",
+            link: "/portfolio/video-production"
         },
         {
             img: "/media/fashion-design/fashion-thumbnail.png",
             title: "Fashion Designs",
             text: "Concept Ideas, Pattern Making, and Garment Construction",
-            alt: "Fashion Design"
+            alt: "Fashion Design",
+            link: "/portfolio/fashion-designs"
         },
         {
             img: "/media/photography/photography-thumbnail.jpg",
             title: "Photography",
             text: "Color Grading and Amateur Photography",
-            alt: "Photography"
+            alt: "Photography",
+            link: "/portfolio/photography"
         },
     ]
 
@@ -54,6 +59,7 @@ const Portfolio = () => {
                         title={card.title}
                         text={card.text}
                         alt={card.alt}
+                        link={card.link}
                         />
                     ))
                 }

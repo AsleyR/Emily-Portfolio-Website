@@ -19,7 +19,7 @@ const Logo = () => {
             <Link href={'/'} className="" onClick={changeMenuState}>
                 {/* <h1 className="font-black font-sans text-3xl hover:underline underline-offset-2">Emily Lim</h1> */}
                 <Image 
-                className="w-40 h-full"
+                className="w-40 h-full py-2"
                 src={'/media/logo/Emily-website-logo.svg'}
                 alt="Emily Logo"
                 width={500}
