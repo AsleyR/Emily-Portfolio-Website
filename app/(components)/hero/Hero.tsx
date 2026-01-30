@@ -21,13 +21,13 @@ const Hero = () => {
                     "text": "See my Projects"
                     }}/>
             </div>
-            <div className="w-full h-140 overflow-hidden">
+            <div className="w-full h-130 overflow-hidden">
                 <Image
                 className="w-full h-full object-cover"
                 // src={"/media/hero/person-placeholder.jpg"}
-                src={"/media/hero/emily-1.png"}
-                height={500}
-                width={500}
+                src={"/media/hero/emily-2.jpg"}
+                height={3000}
+                width={3000}
                 alt="Emily Lim Picture"
                 />
             </div>
