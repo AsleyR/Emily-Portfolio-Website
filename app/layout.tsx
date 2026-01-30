@@ -5,6 +5,7 @@ import "./globals.css";
 import Footer from "./(components)/footer/Footer";
 import { NavbarMenuProvider } from "./(context)/NavbarMenuContext";
 import MobileNavbarLinks from "./(components)/navbar/mobile-navbar/MobileNavbarLinks";
+import ContactMe from "./(components)/ContactMe";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -40,13 +41,14 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${montserrat.variable} ${playfair.variable} antialiased 
-        scroll-smooth transition-all relative font-sans text-main`}
+        scroll-smooth transition-all relative font-sans text-main text-[#010550]`}
       >
         <NavbarMenuProvider>
           <Navbar />
           <MobileNavbarLinks />
         </NavbarMenuProvider>
         {children}
+        <ContactMe />
         <Footer />
       </body>
     </html>
