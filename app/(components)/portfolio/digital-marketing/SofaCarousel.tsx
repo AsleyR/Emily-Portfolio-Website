@@ -36,7 +36,8 @@ const SofaCarousel = () => {
         infinite={true}
         autoPlay={true}
         showBullets={true}
-        additionalClass=""
+        slideDuration={2000}
+        additionalClass="px-[5rem] h-[38rem]"
         />
     );
 }
