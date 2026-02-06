@@ -36,13 +36,13 @@ const PortfolioPage = () => {
             <div className="bg-[#14213D] px-5 md:px-20 py-20 space-y-10">
                 <div className="text-center grid place-content-center gap-2 text-white">
                     <h1 className="font-bold text-5xl">Interior Design</h1>
-                    <div className="bg-white w-[450px] h-[6px]"></div>
+                    <div className="bg-white w-[200px] lg:w-[450px] h-[6px]"></div>
                 </div>
                 <div className="bg-gray-100 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center
                  rounded-xl shadow-2xl p-10 border-2 border-gray-100">
                     <div className="text-center lg:text-left space-y-4">
                         <div className="">
-                            <h2 className="font-bold text-4xl">SofaBedStore.com</h2>
+                            <h2 className="font-bold text-center text-3xl lg:text-4xl">SofaBedStore.com</h2>
                             <h3>August 2020 - August 2025</h3>
                         </div>
                         <p className="text-lg">

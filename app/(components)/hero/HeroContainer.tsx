@@ -9,7 +9,7 @@ interface HeroContainerProps {
 const HeroContainer = (props: HeroContainerProps) => {
     return (
         <div className={`${props.className} w-full h-full z-0 text-white relative grid 
-            grid-cols-1 px-20 py-55`}>
+            grid-cols-1 px-5 lg:px-20 py-55`}>
             <div className="space-y-1">
                 <SectionTitle title={props.title} className="h-13"/>
                 <p className="">{props.subTitle}</p>
