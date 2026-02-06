@@ -1,6 +1,6 @@
-const SectionTitle = ({ title }: { title: string }) => {
+const SectionTitle = ({ title, className }: { title: string, className?: string }) => {
     return (
-        <h1 className="font-bold text-5xl text-center">
+        <h1 className={`${className} font-bold text-5xl typewriter h-13`}>
             {title}
         </h1>
     );
