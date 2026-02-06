@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
       hostname: 'sofabedstore.com',
       port: "",
       pathname: "/cdn/shop/articles/**"
-    }]
+    }],
   }
 };
 

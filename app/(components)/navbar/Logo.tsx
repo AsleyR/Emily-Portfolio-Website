@@ -16,7 +16,7 @@ const Logo = () => {
     
     return (
         <div className="flex">
-            <Link href={'/'} className="" onClick={changeMenuState}>
+            <Link href={'/#'} className="" onClick={changeMenuState}>
                 {/* <h1 className="font-black font-sans text-3xl hover:underline underline-offset-2">Emily Lim</h1> */}
                 <Image 
                 className="w-40 h-full py-2"

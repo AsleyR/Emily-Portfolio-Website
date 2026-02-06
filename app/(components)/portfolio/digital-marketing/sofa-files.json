@@ -1,152 +1,122 @@
 [
     {
         "original": "/media/sofas/sofa-2.png",
-        "thumbnail": "/media/sofas/sofa-2.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-2.png"
     },
     {
         "original": "/media/sofas/sofa-3.png",
-        "thumbnail": "/media/sofas/sofa-3.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-3.png"
     },
     {
         "original": "/media/sofas/sofa-4.png",
-        "thumbnail": "/media/sofas/sofa-4.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-4.png"
     },
     {
         "original": "/media/sofas/sofa-5.png",
-        "thumbnail": "/media/sofas/sofa-5.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-5.png"
     },
     {
         "original": "/media/sofas/sofa-6.png",
-        "thumbnail": "/media/sofas/sofa-6.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-6.png"
     },
     {
         "original": "/media/sofas/sofa-7.png",
-        "thumbnail": "/media/sofas/sofa-7.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-7.png"
     },
     {
         "original": "/media/sofas/sofa-8.png",
-        "thumbnail": "/media/sofas/sofa-8.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-8.png"
     },
     {
         "original": "/media/sofas/sofa-9.png",
-        "thumbnail": "/media/sofas/sofa-9.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-9.png"
     },
     {
         "original": "/media/sofas/sofa-10.png",
-        "thumbnail": "/media/sofas/sofa-10.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-10.png"
     },
     {
         "original": "/media/sofas/sofa-11.png",
-        "thumbnail": "/media/sofas/sofa-11.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-11.png"
     },
     {
         "original": "/media/sofas/sofa-12.png",
-        "thumbnail": "/media/sofas/sofa-12.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-12.png"
     },
     {
         "original": "/media/sofas/sofa-13.png",
-        "thumbnail": "/media/sofas/sofa-13.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-13.png"
     },
     {
         "original": "/media/sofas/sofa-14.png",
-        "thumbnail": "/media/sofas/sofa-14.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-14.png"
     },
     {
         "original": "/media/sofas/sofa-15.png",
-        "thumbnail": "/media/sofas/sofa-15.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-15.png"
     },
     {
         "original": "/media/sofas/sofa-16.png",
-        "thumbnail": "/media/sofas/sofa-16.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-16.png"
     },
     {
         "original": "/media/sofas/sofa-17.png",
-        "thumbnail": "/media/sofas/sofa-17.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-17.png"
     },
     {
         "original": "/media/sofas/sofa-18.png",
-        "thumbnail": "/media/sofas/sofa-18.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-18.png"
     },
     {
         "original": "/media/sofas/sofa-19.png",
-        "thumbnail": "/media/sofas/sofa-19.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-19.png"
     },
     {
         "original": "/media/sofas/sofa-20.png",
-        "thumbnail": "/media/sofas/sofa-20.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-20.png"
     },
     {
         "original": "/media/sofas/sofa-21.png",
-        "thumbnail": "/media/sofas/sofa-21.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-21.png"
     },
     {
         "original": "/media/sofas/sofa-22.png",
-        "thumbnail": "/media/sofas/sofa-22.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-22.png"
     },
     {
         "original": "/media/sofas/sofa-23.png",
-        "thumbnail": "/media/sofas/sofa-23.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-23.png"
     },
     {
         "original": "/media/sofas/sofa-24.png",
-        "thumbnail": "/media/sofas/sofa-24.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-24.png"
     },
     {
         "original": "/media/sofas/sofa-25.png",
-        "thumbnail": "/media/sofas/sofa-25.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-25.png"
     },
     {
         "original": "/media/sofas/sofa-26.png",
-        "thumbnail": "/media/sofas/sofa-26.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-26.png"
     },
     {
         "original": "/media/sofas/sofa-27.png",
-        "thumbnail": "/media/sofas/sofa-27.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-27.png"
     },
     {
         "original": "/media/sofas/sofa-28.png",
-        "thumbnail": "/media/sofas/sofa-28.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-28.png"
     },
     {
         "original": "/media/sofas/sofa-29.png",
-        "thumbnail": "/media/sofas/sofa-29.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-29.png"
     },
     {
         "original": "/media/sofas/sofa-30.png",
-        "thumbnail": "/media/sofas/sofa-30.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-30.png"
     },
     {
         "original": "/media/sofas/sofa-31.png",
-        "thumbnail": "/media/sofas/sofa-31.png",
-        "thumbnailClass": "w-full h-full object-cover"
+        "thumbnail": "/media/sofas/sofa-31.png"
     }
 ]
