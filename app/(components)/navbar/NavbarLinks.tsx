@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NavbarLink from "./NavbarLink";
 
 interface ILinkDict {
     [key: string]: {
@@ -46,32 +47,15 @@ const NavbarLinks = () => {
     }
 
     return ( 
-        <ul className="hidden sm:flex space-x-18 place-content-end align-center text-center items-center">
+        <ul className="hidden sm:flex space-x-15 place-content-end 
+        align-center text-center items-center transition-all">
             {
                 Object.entries(linkDict).map(([key, value]) => (
-                    <div  key={key + linkDict[key]} className="relative">
-                        <Link href={linkDict[key].link} 
-                        className="hover:text-main-2 duration-0 py-2">
-                            <li className="tracking-widest">{key}</li>
-                        </Link>
-                        {/* {
-                            value.subLinks ?
-                                <div className="absolute flex flex-col
-                                gap-5 text-left w-[10rem] h-min bg-white mt-3">
-                                    {
-                                        value.subLinks.map((subLink) => (
-                                            <Link href={subLink.link}
-                                            key={subLink.title}
-                                            className="w-full h-full p-2 hover:bg-gray-100"
-                                            >
-                                                {subLink.title}
-                                            </Link>
-                                        ))
-                                    }
-                                </ div>
-                            : <></>
-                        } */}
-                    </div>
+                    <NavbarLink
+                        key={`${key}-${value}`}
+                        link={linkDict[key].link}
+                        text={key}
+                    />
                 ))
             }
         </ul>
