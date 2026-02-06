@@ -39,7 +39,7 @@ const BlogWritingPage = () => {
                     {/* <div className="bg-[#010550] w-[360px] h-[6px]"></div> */}
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-[min-content_min-content] justify-center
-                gap-10 items-center px-20 py-10">
+                gap-10 items-center px-5 lg:px-20 py-10">
                     {
                         blogs.map((blog, index) => {
                             return (
