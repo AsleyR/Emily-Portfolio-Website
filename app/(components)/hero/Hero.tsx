@@ -1,4 +1,3 @@
-import Image from "next/image";
 import ButtonLink from "../BtnLink";
 
 const Hero = () => {
