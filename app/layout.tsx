@@ -41,7 +41,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${montserrat.variable} ${playfair.variable} antialiased 
-        scroll-smooth transition-all relative font-sans text-main text-[#010550]`}
+        transition-all relative font-sans text-main text-[#010550]`}
       >
         <NavbarMenuProvider>
           <Navbar />
