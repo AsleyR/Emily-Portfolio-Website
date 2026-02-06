@@ -88,11 +88,6 @@ body {
   background-size: cover;
 }
 
-.about-gradient {
-  background: #033387;
-  background: linear-gradient(270deg, rgba(3, 51, 135, 1) 0%, rgba(41, 35, 192, 1) 55%, rgba(71, 22, 237, 1) 100%);
-}
-
 .font-serif {
   font-family: var(--font-playfair-serif);
 }
